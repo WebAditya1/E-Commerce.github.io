@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shopify | E-commerce Website Design</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/shopify.png" width="150px"></a>
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <p>
+                    <a href="cart.html">
+                    <img src="images/cart.png" width="50px" height="35px">
+                </a>
+                </p>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Yourself A New Look !</h1>
+                    <p>Don't be into trends. Don't make fashion own you, but you decide what you are,
+                        what you want to express by the way you dress and the way to live.</p>
+                    <a href="" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="small-container">
+        <h2 class="text"> Featured Products </h2>
+        <div class="row">
+            <div class="col-4">
+                <p>
+                    <a href="product-details.html">
+                    <img src="images/5.jpg">
+                </a>
+                </p>
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 750</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/full-t.jpg">
+                <h4>Full Sleeves T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 800</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Sports Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 2500</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Men's Jeans</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rs. 1050</p>
+            </div>
+        </div>
+
+        <!-- Latest Products -->
+        <h2 class="text"> Latest Products </h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Black Printed Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 1050</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Men's Fossil Wrist Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 1700</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>Sports Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 3200</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Men's Jeans</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rs. 1450</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>Men's FootBall Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 550</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Blue Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 750</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Men's Wrist Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rs. 1300</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Mens Loafers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rs. 1800</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offers -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Shopify</p>
+                    <h1>Smart Band</h1>
+                    <small>
+                        <li>Full colour AMOLED Touch display.</li>
+                        <li>View call, text, and app notifications.</li>
+                        <li>Activity and swim tracking, Water resistant up to 50m.</li>
+                        <li>Up to 20 days battery. A single charge lasts up to 20 days.</li>
+                        <li>Health monitoring, 24/7 heart rate monitoring and sleep tracking.</li>
+                    </small>
+                    <a href="" class="btn">BUY NOW &#8594</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Review -->
+    <div class="review">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Highly recommended ! A great Website with some great collections of T-shirts , shoes , watches.
+                        Price is also efficient. Good customer satisfaction and timely delievery.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>Emma</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Highly recommended ! A great Website with some great collections of T-shirts , shoes , watches.
+                        Price is also efficient. Good customer satisfaction and timely delievery.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>Anthony</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Highly recommended ! A great Website with some great collections of T-shirts , shoes , watches.
+                        Price is also efficient. Good customer satisfaction and timely delievery.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>Scarrlet</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class=col-5>
+                    <img src="images/logo1.png">
+                </div>
+                <div class=col-5>
+                    <img src="images/logo2.png">
+                </div>
+                <div class=col-5>
+                    <img src="images/logo-philips.png">
+                </div>
+                <div class=col-5>
+                    <img src="images/logo4.png">
+                </div>
+                <div class=col-5>
+                    <img src="images/logo3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our App for Android Phone and IOS users.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/shopifybb.jpg">
+                    <p>Our purpose is to serve everyone the best wear possible and in the minimal time.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>You Tube</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Shopify AB</p>
+        </div>
+    </div>
+
+<script>
+    var MenuItems = document.getElementById("menu-items");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else 
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+
+</html>
